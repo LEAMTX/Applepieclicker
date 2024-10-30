@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Pie | Clicker</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/pricedown" rel="stylesheet" />
+    <link class="icon" rel="shorcut icon" href="./asset/pie-cake.ico" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <nav>
+      <h1>
+        Apple Pie <br />
+        Clicker App
+      </h1>
+      <p id="change"></p>
+    </nav>
+    <main class="sectionglobal">
+      <!-- Début de l'élément clicable -->
+      <section class="section1">
+        <article class="article">
+          <h1>
+            Farm Pie - Click On
+            <img
+              id="cuisinier"
+              src="./asset/cuisnierbg.png"
+              alt="beau cuisinier"
+            />
+          </h1>
+          <h2>Total : <span id="Total">0</span> apple pies</h2>
+          <h2 id="piecounter">
+            Per second : <span id="piecount">0</span> apple pies
+          </h2>
+          <img
+            id="tarte"
+            data-img="tarte"
+            src="./asset/tarte.png"
+            alt="tarte aux pommes dégoulinatante "
+          />
+        </article>
+      </section>
+      <!--fin de l'élément clicable-->
+
+      <!--Début de boutique-->
+      <section class="shop">
+        <div class="boutique">
+          <h2 id="boutique">Boutique</h2>
+          <ul>
+            <li class="odd">
+              <img
+                id="item1"
+                class="patissieritem1"
+                src="asset/colore-chefdesign.png"
+              />
+              Boulanger
+            </li>
+            <li class="even">
+              <img class="sugar" src="asset/moulin-removebg-preview.png" />
+              Moulin
+            </li>
+            <li class="odd">
+              <img
+                class="sugar"
+                src="asset/robot_patissier-removebg-preview.png"
+              />
+              Robot
+            </li>
+            <li class="even">
+              <img
+                class="sugar"
+                src="asset/usine-patisserie-removebg-preview.png"
+              />
+              Usine
+            </li>
+            <li class="odd">
+              <img id="item5" class="sugar" src="asset/planet.pie.png" />
+              planète pie
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Fin de boutique-->
+    </main>
+    <footer>
+      Made with love ❤️ - Théophile Simoes Das Neves | Nadir Haddouche | Léa
+      Monthieux | Alexandre Anavoizard
+    </footer>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="helperfunctions.js"></script>
+  </body>
+</html>
